@@ -2,6 +2,8 @@ package com.mech2mod.entity;
 
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.PathfinderMob;
@@ -106,5 +108,33 @@ public class Mech2Entity extends PathfinderMob implements GeoEntity {
     @Override
     public boolean requiresCustomPersistence() {
         return this.isVehicle() || super.requiresCustomPersistence();
+    }
+
+    // ── Collision ─────────────────────────────────────────────────────────────
+
+    @Override
+    public boolean isPushable() {
+        return false; // мех не двигается от ударов других мобов/игроков
+    }
+
+    @Override
+    public boolean isPickable() {
+        return true; // можно взаимодействовать (ПКМ, хитбокс)
+    }
+
+    // ── Fall damage ───────────────────────────────────────────────────────────
+
+    @Override
+    public boolean causeFallDamage(float fallDistance, float multiplier, DamageSource source) {
+        return false; // мех не получает урон от падения
+    }
+
+    @Override
+    public void tick() {
+        super.tick();
+        // сбрасываем счётчик падения у пассажира, чтобы он не получил урон при выходе
+        for (Entity passenger : this.getPassengers()) {
+            passenger.fallDistance = 0;
+        }
     }
 }

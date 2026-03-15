@@ -5,7 +5,7 @@
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
-				"root": {
+				"bone": {
 					"position": {
 						"0.0": {
 							"post": {
@@ -39,7 +39,7 @@
 						}
 					}
 				},
-				"left_hip": {
+				"leg1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -73,7 +73,7 @@
 						}
 					}
 				},
-				"left_thigh": {
+				"leg1.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -125,7 +125,7 @@
 						}
 					}
 				},
-				"left_knee": {
+				"leg1.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -177,7 +177,7 @@
 						}
 					}
 				},
-				"left_foot": {
+				"leg1.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -223,7 +223,7 @@
 						}
 					}
 				},
-				"right_hip": {
+				"leg2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -257,7 +257,7 @@
 						}
 					}
 				},
-				"right_thigh": {
+				"leg2.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -303,13 +303,13 @@
 						},
 						"4.0": {
 							"post": {
-								"vector": [-35, 0, 0]
+								"vector": [-30, 0, 0]
 							},
 							"lerp_mode": "catmullrom"
 						}
 					}
 				},
-				"right_knee": {
+				"leg2.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -361,7 +361,7 @@
 						}
 					}
 				},
-				"right_foot": {
+				"leg2.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -413,7 +413,7 @@
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
-				"root": {
+				"bone": {
 					"position": {
 						"0.0": {
 							"post": {
@@ -435,7 +435,7 @@
 						}
 					}
 				},
-				"left_hip": {
+				"leg1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -445,71 +445,7 @@
 						}
 					}
 				},
-				"left_thigh": {
-					"rotation": {
-						"0.0": {
-							"post": {
-								"vector": [0, 0, 0]
-							},
-							"lerp_mode": "catmullrom"
-						},
-						"1.0": {
-							"post": {
-								"vector": [5, 0, 0]
-							},
-							"lerp_mode": "catmullrom"
-						},
-						"2.0": {
-							"post": {
-								"vector": [0, 0, 0]
-							},
-							"lerp_mode": "catmullrom"
-						}
-					}
-				},
-				"left_knee": {
-					"rotation": {
-						"0.0": {
-							"post": {
-								"vector": [0, 0, 0]
-							},
-							"lerp_mode": "catmullrom"
-						},
-						"1.0": {
-							"post": {
-								"vector": [-5, 0, 0]
-							},
-							"lerp_mode": "catmullrom"
-						},
-						"2.0": {
-							"post": {
-								"vector": [0, 0, 0]
-							},
-							"lerp_mode": "catmullrom"
-						}
-					}
-				},
-				"left_foot": {
-					"rotation": {
-						"0.0": {
-							"post": {
-								"vector": [0, 0, 0]
-							},
-							"lerp_mode": "catmullrom"
-						}
-					}
-				},
-				"right_hip": {
-					"rotation": {
-						"0.0": {
-							"post": {
-								"vector": [0, 0, 0]
-							},
-							"lerp_mode": "catmullrom"
-						}
-					}
-				},
-				"right_thigh": {
+				"leg1.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -531,7 +467,7 @@
 						}
 					}
 				},
-				"right_knee": {
+				"leg1.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -553,7 +489,71 @@
 						}
 					}
 				},
-				"right_foot": {
+				"leg1.3": {
+					"rotation": {
+						"0.0": {
+							"post": {
+								"vector": [0, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": {
+							"post": {
+								"vector": [0, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"leg2.1": {
+					"rotation": {
+						"0.0": {
+							"post": {
+								"vector": [0, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"1.0": {
+							"post": {
+								"vector": [5, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"2.0": {
+							"post": {
+								"vector": [0, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"leg2.2": {
+					"rotation": {
+						"0.0": {
+							"post": {
+								"vector": [0, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"1.0": {
+							"post": {
+								"vector": [-5, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"2.0": {
+							"post": {
+								"vector": [0, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"leg2.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -575,7 +575,7 @@
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
 			"bones": {
-				"root": {
+				"bone": {
 					"position": {
 						"0.0": {
 							"post": {
@@ -597,7 +597,7 @@
 						}
 					}
 				},
-				"left_hip": {
+				"leg1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -613,7 +613,7 @@
 						}
 					}
 				},
-				"left_thigh": {
+				"leg1.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -629,7 +629,7 @@
 						}
 					}
 				},
-				"left_knee": {
+				"leg1.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -645,7 +645,7 @@
 						}
 					}
 				},
-				"left_foot": {
+				"leg1.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -661,7 +661,7 @@
 						}
 					}
 				},
-				"right_hip": {
+				"leg2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -677,7 +677,7 @@
 						}
 					}
 				},
-				"right_thigh": {
+				"leg2.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -693,7 +693,7 @@
 						}
 					}
 				},
-				"right_knee": {
+				"leg2.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -709,7 +709,7 @@
 						}
 					}
 				},
-				"right_foot": {
+				"leg2.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -731,7 +731,7 @@
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
 			"bones": {
-				"root": {
+				"bone": {
 					"position": {
 						"0.0": {
 							"post": {
@@ -753,7 +753,7 @@
 						}
 					}
 				},
-				"left_hip": {
+				"leg1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -769,7 +769,7 @@
 						}
 					}
 				},
-				"left_thigh": {
+				"leg1.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -785,7 +785,7 @@
 						}
 					}
 				},
-				"left_knee": {
+				"leg1.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -801,7 +801,7 @@
 						}
 					}
 				},
-				"left_foot": {
+				"leg1.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -817,7 +817,7 @@
 						}
 					}
 				},
-				"right_hip": {
+				"leg2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -833,7 +833,7 @@
 						}
 					}
 				},
-				"right_thigh": {
+				"leg2.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -849,7 +849,7 @@
 						}
 					}
 				},
-				"right_knee": {
+				"leg2.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -865,7 +865,7 @@
 						}
 					}
 				},
-				"right_foot": {
+				"leg2.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -887,7 +887,7 @@
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
-				"root": {
+				"bone": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -923,7 +923,7 @@
 						}
 					}
 				},
-				"left_hip": {
+				"leg1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -945,7 +945,7 @@
 						}
 					}
 				},
-				"left_thigh": {
+				"leg1.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -961,7 +961,7 @@
 						}
 					}
 				},
-				"left_knee": {
+				"leg1.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -977,7 +977,7 @@
 						}
 					}
 				},
-				"left_foot": {
+				"leg1.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -993,7 +993,7 @@
 						}
 					}
 				},
-				"right_hip": {
+				"leg2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1015,7 +1015,7 @@
 						}
 					}
 				},
-				"right_thigh": {
+				"leg2.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1031,7 +1031,7 @@
 						}
 					}
 				},
-				"right_knee": {
+				"leg2.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1047,7 +1047,7 @@
 						}
 					}
 				},
-				"right_foot": {
+				"leg2.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1069,7 +1069,7 @@
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
 			"bones": {
-				"root": {
+				"bone": {
 					"position": {
 						"0.0": {
 							"post": {
@@ -1091,7 +1091,7 @@
 						}
 					}
 				},
-				"left_hip": {
+				"leg1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1119,7 +1119,7 @@
 						}
 					}
 				},
-				"left_thigh": {
+				"leg1.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1147,7 +1147,7 @@
 						}
 					}
 				},
-				"left_knee": {
+				"leg1.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1175,7 +1175,7 @@
 						}
 					}
 				},
-				"left_foot": {
+				"leg1.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1203,7 +1203,7 @@
 						}
 					}
 				},
-				"right_hip": {
+				"leg2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1231,7 +1231,7 @@
 						}
 					}
 				},
-				"right_thigh": {
+				"leg2.1": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1259,7 +1259,7 @@
 						}
 					}
 				},
-				"right_knee": {
+				"leg2.2": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1287,7 +1287,7 @@
 						}
 					}
 				},
-				"right_foot": {
+				"leg2.3": {
 					"rotation": {
 						"0.0": {
 							"post": {
@@ -1313,6 +1313,35 @@
 							},
 							"lerp_mode": "catmullrom"
 						}
+					}
+				}
+			}
+		}
+		,
+		"jump": {
+			"loop": false,
+			"animation_length": 10,
+			"bones": {
+				"bone": {
+					"position": {
+						"0.0": { "post": { "vector": [0, 0, 0] }, "lerp_mode": "linear" },
+						"2.0": { "post": { "vector": [0, 6, 0] }, "lerp_mode": "catmullrom" },
+						"6.0": { "post": { "vector": [0, 6, 0] }, "lerp_mode": "catmullrom" },
+						"10.0": { "post": { "vector": [0, 0, 0] }, "lerp_mode": "linear" }
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": { "post": { "vector": [-10, 0, 0] }, "lerp_mode": "linear" },
+						"2.0": { "post": { "vector": [30, 0, 0] }, "lerp_mode": "catmullrom" },
+						"10.0": { "post": { "vector": [-10, 0, 0] }, "lerp_mode": "linear" }
+					}
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": { "post": { "vector": [10, 0, 0] }, "lerp_mode": "linear" },
+						"2.0": { "post": { "vector": [-30, 0, 0] }, "lerp_mode": "catmullrom" },
+						"10.0": { "post": { "vector": [10, 0, 0] }, "lerp_mode": "linear" }
 					}
 				}
 			}
